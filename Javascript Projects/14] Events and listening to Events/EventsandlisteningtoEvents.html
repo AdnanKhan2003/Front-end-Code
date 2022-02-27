@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/EventsandlisteningtoEvents.css">
+    <title>Events and listening to Events</title>
+</head>
+
+<body>
+<!-- Events that only work on body or form -->
+<!-- 8. <body onkeypress="hello()"> -->
+<!-- 9.<body onkeydown="hello()"> -->
+<!-- 10. <body onload="hello()"> -->
+<!-- 11. <body onunload="hello()"> -->
+<!-- 12. <body onresize="hello()"> -->
+<!-- 13. <body onscroll="hello()"> -->
+    <h1>Events and Listening to Events</h1>
+    <hr>
+    <div class="btn-container">
+        <!-- 1. onClick -->
+            <div class="btn-box">
+                <h2>a. onClick</h2>
+                <button onclick="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 2. ondblClick -->
+            <div class="btn-box">
+                <h2>b. ondblClick</h2>
+                <button ondblclick="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 3. oncontextmenu -->
+            <div class="btn-box">
+                <h2>c. oncontextmenu</h2>
+                <button oncontextmenu="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 4. onmouseenter -->
+            <div class="btn-box">
+                <h2>d. onmouseenter</h2>
+                <button onmouseenter="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 5. onmouseout -->
+            <div class="btn-box">
+                <h2>e. onmouseout</h2>
+                <button onmouseout="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 6. onmouseup -->
+            <div class="btn-box">
+                <h2>f. onmouseup</h2>
+                <button onmouseup="hello()" class="btn">Submit</button>
+            </div>
+        <!-- 7. onmousedown -->
+            <div class="btn-box">
+                <h2>g. onmousedown</h2>
+                <button onmousedown="hello()" class="btn">Submit</button>
+            </div>
+    </div>
+    <h1>Event Listener</h1>
+    <hr>
+    <div class="container">
+        <div id="box1">
+            <h2>a. Click using Event Listener</h2>
+            <button id="ijk">Submit</button>
+        </div>
+        <div id="box2">
+            <h2>b. dblClick using Event Listener</h2>
+            <button id="ijkl">Submit</button>
+        </div>
+        <div id="box3">
+            <h2>c. contextmenu using Event Listener</h2>
+            <button id="ijkm">Submit</button>
+        </div>
+    </div>
+
+    <script src="js/EventsandlisteningtoEvents.js"></script>
+</body>
+
+</html>

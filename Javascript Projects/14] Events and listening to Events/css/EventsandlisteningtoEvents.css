@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Yaldevi:wght@700&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.btn {
+    border: 2px solid black;
+    padding: 0rem 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.btn-box {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30vw;
+    text-align: center;
+    height: 13vh;
+    margin: 1rem 1rem;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-box:hover {
+    background-color: lightgray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+#box1 {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30vw;
+    text-align: center;
+    height: 20vh;
+    margin: 1rem 1rem;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box1:hover {
+    background-color: lightgray;
+}
+
+#box2 {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30vw;
+    text-align: center;
+    height: 20vh;
+    margin: 1rem 1rem;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box2:hover {
+    background-color: lightgray;
+}
+
+#box3 {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30vw;
+    text-align: center;
+    height: 20vh;
+    margin: 1rem 1rem;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box3:hover {
+    background-color: lightgray;
+}
+
+
