@@ -1,0 +1,30 @@
+nav {
+    background-color: darkblue;
+    color: white;
+    width: 100vw;
+    height: 62px;
+}
+
+.container {
+    background-color: darkred;
+    color: white;
+}
+
+.bg {
+    background-image: url('image.jpg');
+    width: 352px;
+    height: 352px;
+    background-size: 360px 400px;
+    background-repeat: no-repeat;
+    background-color: darkblue;
+}
+
+.main {
+    background-image: url('image2.jpg');
+    background-attachment: fixed;
+    width: 200px;
+}
+
+.all {
+    background: lightblue url('image3.png') no-repeat fixed center center;
+}

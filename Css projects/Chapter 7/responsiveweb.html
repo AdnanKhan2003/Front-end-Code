@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsiveweb</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .fb {
+            background-color: black;
+            color: white;
+            height: 14vh;
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        .fi {
+            list-style: none;
+            text-transform: uppercase;
+            margin-right: 14vw;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+
+        .div1 {
+            background-color: wheat;
+            height: 40vh;
+            width: 40vw;
+        }
+
+        .div2 {
+            background-color: turquoise;
+            height: 40vh;
+            width: 40vw;
+        }
+        body {
+            background-color: green;
+        }
+        @media screen and (max-width: 800px){
+            body {
+                background-color: green;
+            }
+        }
+        @media screen and (max-width: 600px){
+            body {
+                background-color: yellow;
+            }
+        }
+        @media screen and (max-width: 500px){
+            body {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="fb">
+            <li class="fi">Home</li>
+            <li class="fi">About</li>
+            <li class="fi">Contact</li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsam consectetur amet
+            maxime quidem, rerum accusamus temporibus maiores fugiat, soluta ipsum dolore atque qui labore quas fuga?
+            Atque vitae nostrum architecto itaque ipsum nam numquam error!
+        </div>
+        <div class="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem recusandae
+            consequatur, cupiditate earum veritatis ipsum voluptas delectus quos. Labore fugit fugiat incidunt. Nobis ut
+            suscipit repudiandae voluptatibus consectetur quidem commodi quod, nesciunt enim aspernatur.
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layoutgrid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .gbox {
+            display: inline-grid;
+            justify-content: right;
+            align-content: center;
+            grid-template-columns: auto auto auto;
+            background-color: black;
+            color: white;
+            height: 10vh;
+            width: 100%;
+        }
+
+        .gitems {
+            list-style: none;
+            margin-right: 14vw;
+        }
+
+        .banner {
+            background-image: url('abc.jpg');
+            height: 40vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box1 {
+            background-color: lightblue;
+            width: 40vw;
+        }
+
+        .box2 {
+            background-color: paleturquoise;
+            width: 40vw;
+        }
+
+        body {
+            background-color: papayawhip;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="gbox">
+            <li class="gitems">Home</li>
+            <li class="gitems">About</li>
+            <li class="gitems">Contact</li>
+        </ul>
+    </header>
+    <div class="banner">
+
+    </div>
+    <div class="main">
+        <div class="box1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit eos rem quia, molestiae
+            consequatur placeat voluptas quas deleniti officiis asperiores sequi molestias necessitatibus provident
+            quaerat, optio facilis deserunt sapiente excepturi suscipit aspernatur eveniet. Hic, vero.
+        </div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laudantium nam ipsam
+            officiis qui assumenda natus quam quibusdam corporis explicabo saepe, fuga reprehenderit illo quis
+            perspiciatis aut repudiandae est dolores, culpa at illum dolore sed accusamus eligendi. Aut, mollitia quos.
+        </div>
+    </div>
+</body>
+</html>

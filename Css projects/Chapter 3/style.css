@@ -1,0 +1,77 @@
+header {
+	background-color: black;
+	color: white;
+}
+
+.content {
+	background-color: rgb(24, 138, 158);
+	color: black;
+}
+
+footer {
+	background-color: cornflowerblue;
+	color: darkgreen;
+}
+
+.new {
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+	background-color: black;
+	color: white;
+}
+
+.main {
+	background-color: rgb(72, 26, 124);
+	color: black;
+	border: 2px solid brown;
+	margin: 20px;
+	padding: 2px;
+}
+
+.foot {
+	background-color: cornflowerblue;
+	color: darkgreen;
+	text-align: center;
+}
+
+.div1 {
+	background-color: black;
+	color: white;
+}
+
+.div2 {
+	background-color: red;
+	color: black;
+	margin: 25px;
+}
+
+.div3 {
+	background-color: darkgreen;
+	color: black;
+	margin: 5px;
+}
+
+.div4 {
+	background-color: black;
+	color: white;
+}
+
+.div5 {
+	background-color: red;
+	color: black;
+	margin: 12px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.last{
+	background-color: blueviolet;
+	color: black;
+}

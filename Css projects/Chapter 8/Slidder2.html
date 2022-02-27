@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slidder2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: cadetblue;
+            height: 14vh;
+            width: 100%;
+        }
+
+        .slider {
+            background-color: firebrick;
+            display: flex;
+        }
+
+        .img1 {
+            display: block;
+            margin: auto;
+            transform: translate(21vw);
+            animation: slide1 2s infinite forwards;
+        }
+
+        .img2 {
+            transform: translate(40vw);
+        }
+
+        .img3 {
+            transform: translate(-101vw);
+            animation: slide2 2s infinite forwards;
+        }
+        @keyframes slide1 {
+            0%{
+                transform: translate(21vw);
+            }
+            100%{
+                transform: translate(78vw);
+            }
+        }
+        @keyframes slide2 {
+            0%{
+                transform: translate(-101vw);
+            }
+            100%{
+                transform: translate(-39vw);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="box">
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <img class="img1" src="img.jpg" alt="">
+        <img class="img2" src="img2.jpg" alt="">
+        <img class="img3" src="img3.jpg" alt="">
+    </div>
+</body>
+
+</html>

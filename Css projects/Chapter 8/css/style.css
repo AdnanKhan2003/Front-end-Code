@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 14vh;
+    width: 100%;
+}
+.item a {
+    text-decoration: none;
+    color: white;
+}
+.item {
+    list-style: none;
+    padding-right: 12vw;
+}

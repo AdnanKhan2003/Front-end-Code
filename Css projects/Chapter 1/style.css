@@ -1,0 +1,28 @@
+.reddiv {
+    background-color: darkred;
+    color: white;
+}
+
+/* External CSS 
+#bg {
+    background-color: teal;
+}*/
+
+.div1 {
+    background-color: teal;
+}
+
+.main {
+    background-color: tomato;
+}
+.bg {
+    background-color:turquoise;
+}
+
+.all {
+    background-color: yellow;
+}
+
+.content {
+    border: 2px solid red;
+}

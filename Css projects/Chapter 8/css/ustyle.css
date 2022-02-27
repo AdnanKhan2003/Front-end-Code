@@ -1,0 +1,60 @@
+.progress-bar {
+    background-color: red;
+    height: 0.2vh;
+    animation: load 2s;
+}
+
+@keyframes load {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25vw;
+    }
+    90%{
+        width: 90vw;
+    }
+    100%{
+        width: 70vw;
+    }
+}
+
+.f-box {
+    background-color: black;
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.f-item {
+    list-style: none;
+    margin-right: 12vw;
+}
+
+.f-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.p-bar {
+    transition: width 2s;
+    background-color: red;
+    height: 0.3vh;
+}
+
+@keyframes tload {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 25vw;
+    }
+    75% {
+        width: 75vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}

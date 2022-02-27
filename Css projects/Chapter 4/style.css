@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    height: 68px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    background-color: red;
+    color: black;
+    display: inline-block;
+    height: 402px;
+    width: 50%;
+}
+
+.right {
+    background-color: green;
+    color: black;
+    display: inline-block;
+    height: 402px;
+    width: 50%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: uppercase;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 22px;
+    text-transform: uppercase;
+}
+
+.home {
+    background-color: black;
+    color: white;
+}
+
+.lorem1 {
+    background-color: olivedrab;
+    color: black;
+    display: inline-block;
+    width: 50%;
+    display: none;
+}
+
+.lorem2 {
+    background-color: firebrick;
+    color: black;
+    display: inline-block;
+    width: 50%;
+}
+
+.lorem3 {
+    background-color: sandybrown;
+    color: black;
+    display: inline-block;
+    width: 50%;
+    visibility: hidden;
+}
+
+.lorem4 {
+    background-color: slategrey;
+    color: black;
+    display: inline-block;
+    width: 50%;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
